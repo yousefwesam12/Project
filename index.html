@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="اكتشف، قارن، وتحقق ميدانيًا من مواقع أرضية لاختبارات القمر والمريخ.">
+<title>نظير | منصة المهمات والنظائر الكوكبية</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side" id="side">
+    <a class="brand" href="#/home"><b>نظير</b><small>PLANETARY ANALOG LAB</small></a>
+    <p class="sec">عمليات المهمة</p>
+    <nav id="nav" aria-label="التنقل الرئيسي"></nav>
+    <div class="sidefoot"><i></i> وضع الاستكشاف<small>بدون حساب · البيانات بتتحفظ في المتصفح</small></div>
+  </aside>
+  <div class="main">
+    <header class="bar">
+      <button class="menu" id="menu" aria-label="القائمة">☰</button>
+      <div class="ttl"><small>مساحة العمل</small><b id="vt"></b></div>
+      <div class="barr"><span class="pill" id="mname"></span><button class="btn pri sm" id="newm">+ مهمة جديدة</button></div>
+    </header>
+    <main id="view"></main>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
